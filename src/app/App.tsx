@@ -64,7 +64,7 @@ export const App = () => {
             :<TextInput readOnly value={email}/>}
           </FormField>
           {/* Change which button to use depending on if data is currently shown */}
-          {!visable ? <Button onClick={clickEvent} color="primary" variant="accent">Understand my Trades</Button> 
+          {!visable ? <Button onClick={clickEvent} color="primary" variant="accent">Search</Button> 
           : <Button onClick={resetEvent} color="primary" variant="accent">Reset</Button>}
       </Flex>
 
