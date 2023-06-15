@@ -40,7 +40,7 @@ export const App = () => {
     <>
     {/* Added ToastContainer to help with error handling in callback functions */}
     <ToastContainer />
-    <Flex flexDirection="column" alignItems="center" padding={32}>
+    <Flex flexDirection="column" alignItems="center" >
       <img
         src="./assets/Dynatrace_Logo.svg"
         alt="Dynatrace Logo"

@@ -24,7 +24,7 @@ export const Data = ({bizobj}:DataProps) => {
 
        
     return(
-        <Flex flexDirection="column" alignItems="center">
+        <Flex flexDirection="column" >
         { !isLoadingStarted ? <>
         <Heading>Results</Heading>
           <DataTable data={dqlReturn?.records||[]} columns={convertToColumns(dqlReturn?.types||[])} />
